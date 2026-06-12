@@ -1,92 +1,132 @@
-<!-- prettier-ignore -->
-# Animated React Landing (Vite + Tailwind + GSAP)
+# 🚀 Animated React Landing Page
 
-![Vite](https://img.shields.io/badge/Vite-5.4.9-brightgreen) ![React](https://img.shields.io/badge/React-18.x-blue) ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.x-teal) ![GSAP](https://img.shields.io/badge/GSAP-3.x-purple) ![License](https://img.shields.io/badge/License-MIT-lightgrey)
+![Vite](https://img.shields.io/badge/Vite-5.x-brightgreen)
+![React](https://img.shields.io/badge/React-18.x-blue)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.x-teal)
+![GSAP](https://img.shields.io/badge/GSAP-3.x-purple)
+![TanStack Query](https://img.shields.io/badge/TanStack_Query-5.x-red)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
-A modern, animated React landing page built with Vite, Tailwind CSS and GSAP for smooth interactions and micro-animations.
-
----
-
-## Demo
-
-![Hero screenshot](images/Background.avif)
-
-Open locally to see the full interactive animation.
+A modern and visually engaging landing page built with React, Vite, Tailwind CSS, GSAP, and TanStack Query. Designed with smooth animations, responsive layouts, and a scalable architecture for modern web applications.
 
 ---
 
-## Highlights
+## ✨ Features
 
-- Smooth, performant animations with `gsap` and `@gsap/react`
-- Built with `Vite` for fast HMR and quick development
-- Styling with `Tailwind CSS` for a responsive, utility-first workflow
-- Clean component structure for easy customization
+* Modern responsive UI
+* Smooth GSAP animations
+* Fast development with Vite
+* Utility-first styling using Tailwind CSS
+* Data fetching and caching with TanStack Query
+* Reusable component architecture
+* Mobile-friendly design
+* Optimized performance
 
 ---
 
-## Quick Start
+## 🛠 Tech Stack
 
-Install dependencies:
+### Frontend
+
+* React.js
+* Vite
+* Tailwind CSS
+* JavaScript (ES6+)
+
+### Animation
+
+* GSAP
+* @gsap/react
+
+### State & Data Management
+
+* TanStack Query (React Query)
+
+### Development Tools
+
+* ESLint
+* Prettier
+
+---
+
+
+## 🎨 Customization
+
+* Replace images and assets with your branding.
+* Modify GSAP timelines to create custom animations.
+* Extend Tailwind configuration for your design system.
+* Integrate APIs using TanStack Query for dynamic content.
+
+---
+
+## 📱 Responsive Design
+
+The application is fully responsive and optimized for:
+
+* Mobile Devices
+* Tablets
+* Laptops
+* Desktop Screens
+
+---
+
+## 📈 Performance
+
+* Fast loading with Vite
+* Optimized asset handling
+* Efficient data caching with TanStack Query
+* Smooth GPU-accelerated animations using GSAP
+
+---
+
+## Video
+
+https://github.com/user-attachments/assets/39434eda-347e-48a6-a069-1cde644648c0
+
+
+## 🚀 Getting Started
+
+### Clone Repository
+
+```bash
+git clone https://github.com/your-username/animated-website.git
+cd animated-website
+```
+
+### Install Dependencies
 
 ```bash
 npm install
 ```
 
-Run the dev server:
+### Start Development Server
 
 ```bash
 npm run dev
 ```
 
-Build for production:
+### Production Build
 
 ```bash
 npm run build
 ```
 
-Preview the production build:
+### Preview Build
 
 ```bash
 npm run preview
 ```
 
----
+## 📄 License
 
-## Project Structure (important files)
-
-- `src/main.jsx` — App bootstrap
-- `src/App.jsx` — Top-level app layout
-- `src/Components/Home/Home.jsx` — Main landing section and animations
-- `src/Components/Header/Header.jsx` — Navigation/header
-- `src/Components/Footer/Footer.jsx` — Footer
-- `src/Components/PageImages/Image.jsx` — Image components used in the hero
-- `src/index.css` / `src/App.css` — Tailwind + custom styles
+This project is licensed under the MIT License.
 
 ---
 
-## Technologies
+## 👨‍💻 Author
 
-- React 18
-- Vite
-- Tailwind CSS
-- GSAP (+ @gsap/react)
+Muhammad Ahmad
 
----
+Full Stack Developer (MERN Stack)
 
-## Tips & Customization
-
-- Replace images in the `images/` folder for your own branding.
-- Tweak animation timelines in the `Home` and `PagesVideo` components using GSAP.
-- Use Tailwind utility classes in components for rapid styling changes.
-
----
-
-## Contributing
-
-Contributions, issues and feature requests are welcome. For small fixes, open a PR and describe the change.
-
----
-
-## License
-
-This project is provided under the MIT License.
+React.js • Next.js • Node.js • Express.js • MongoDB • Tailwind CSS • TypeScript
